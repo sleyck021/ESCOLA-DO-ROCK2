@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS aulas (
+    id_aula SERIAL PRIMARY KEY,
+    id_turma INTEGER,
+    data_aula TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    atualizado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT chave_estrangeira_turma
+        FOREIGN KEY (id_turma)
+        REFERENCES turmas (id_turma)
+        ON DELETE SET NULL
+        ON UPDATE CASCADE
+);
+
+INSERT INTO aulas (id_turma) VALUES
+(1),
+(2)
