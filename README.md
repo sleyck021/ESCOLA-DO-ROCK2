@@ -74,9 +74,7 @@ Projeto de gerenciamento escolar com Node.js, Express, Sequelize e PostgreSQL, p
 ## Créditos
 
 Desenvolvido por equipe Escola do Rock:
-
-Bruno Henrique: 6324003
-Luiz Felipe Cardoso: 6324303
+ 
 Riquelme Borges: 6324064
 Naor Muckemberg: 6324552
 
