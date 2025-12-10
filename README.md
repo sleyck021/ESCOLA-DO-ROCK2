@@ -32,8 +32,8 @@ Projeto de gerenciamento escolar com Node.js, Express, Sequelize e PostgreSQL, p
 1. **Clone o repositório:**
 
    ```sh
-   git clone https://github.com/sleyck021/ESCOLA-DO-ROCK.git
-   cd ESCOLA-DO-ROCK
+   git clone https://github.com/sleyck021/ESCOLA-DO-ROCK2.git
+   cd ESCOLA-DO-ROCK2
    ```
 
 2. **Abra a pasta no VS Code:**
@@ -80,4 +80,4 @@ Naor Muckemberg: 6324552
 
 ---
 
-> Dúvidas ou sugestões? Abra uma issue no [repositório](https://github.com/sleyck021/ESCOLA-DO-ROCK).
+> Dúvidas ou sugestões? Abra uma issue no [repositório](https://github.com/sleyck021/ESCOLA-DO-ROCK2).
